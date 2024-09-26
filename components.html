@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <style>
+        .container-fluid {
+            height: 80px;
+        }
+
+        .carousel-inner {
+            margin-bottom: 8%;
+        }
+
+        #accordionFlushExample {
+            margin-top: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="background-color:lightblue;">
+            <a class="navbar-brand" href="#" style="font-family:cursive;">Travelling</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://thumbs.dreamstime.com/b/world-travel-poster-landmarks-map-world-plane-travel-landmarks-world-world-map-background-important-322784093.jpg"
+                    class="d-block w-100" alt="..." height="800px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpapers.com/images/hd/travel-and-tourism-n5eeffuxkd4ldglg.jpg"
+                    class="d-block w-100" alt="..." height="800px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://m.media-amazon.com/images/I/81Kb3DFNzBL._AC_UF1000,1000_QL80_.jpg"
+                    class="d-block w-100" alt="..." height="800px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="cards" style="display: flex; gap: 30px; justify-content: center;">
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCvwQ7QzjNInhgQkpMH22nvPjNYgq3TiiWfU4zY3BfgfrY6nG95yqKOzL1-GwQXMqpjk&usqp=CAU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Paris</h5>
+                <p class="card-text">Paris, France's capital, is a major European city and a global center for art,
+                    fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and
+                    the River Seine.</p>
+                <a href="#" class="btn btn-primary">Visit to Paris</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.travelandleisure.com/thmb/wdUcyBQyQ0wUVs4wLahp0iWgZhc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/taj-mahal-agra-india-TAJ0217-9eab8f20d11d4391901867ed1ce222b8.jpg"
+                class="card-img-top" alt="..." height="350px">
+            <div class="card-body">
+                <h5 class="card-title">Taj Mahal</h5>
+                <p class="card-text">The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being “the
+                    jewel of Muslim art in India and one of the universally admired masterpieces of the world's
+                    heritage”.</p>
+                <a href="#" class="btn btn-primary">Visit to Taj Mahal</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://i.natgeofe.com/n/ff6bc870-1700-4a2f-87a2-2955abd83794/h_25.539224.jpg"
+                class="card-img-top" alt="..." height="350px">
+            <div class="card-body">
+                <h5 class="card-title">London</h5>
+                <p class="card-text">Big Ben, Buckingham Palace or the Beatles, London is renowned as a global culture
+                    capital. The city is filled with history, breathtaking sights and endless tourist attraction.</p>
+                <a href="#" class="btn btn-primary">Visit to London</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJThn2gPxVBpW4O7VzeWkvYrNSin2pqvGrUBT-r1gCxLocMmgCJAvikSdXTS2nk9j5g9I&usqp=CAU"
+                class="card-img-top" alt="..." height="350px">
+            <div class="card-body">
+                <h5 class="card-title">Australia</h5>
+                <p class="card-text">Australia is globally famous for its natural wonders, wide-open spaces, beaches,
+                    deserts. Australia is one of the world's most highly.It is the largest country by area in Oceania
+                    and the sixth-largest in the world.</p>
+                <a href="#" class="btn btn-primary">Visit to Australia</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Travelling #1
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">It’s wonderful to travel—to meet new people, see new places, experience
+                    different cultures, live life the way life is lived somewhere else.
+                    <code>Plenty of good things </code>are associated with travel.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Travelling #2
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Meeting people from other cultures will teach you that the way you've been
+                    looking at the world isn't the way everybody else does. In fact,
+                    <code>your point-of-view might</code> have some major blind spots. Seeing the world for yourself
+                    will improve your vision and your grip on reality.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Travelling #3
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Paris, the capital of France, is considered the most romantic
+                    <code>destination in the world</code> and one of the best places to visit. Paris offers historical
+                    monuments, vintage palaces, art museums, cathedrals, landscaped gardens and plenty of shopping
+                    areas.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-outline-primary">Travelling</button>
+    <button type="button" class="btn btn-outline-secondary">Around the World</button>
+    <button type="button" class="btn btn-outline-success">A Journey With in</button>
+    <button type="button" class="btn btn-outline-danger">Along the way</button>
+    <button type="button" class="btn btn-outline-warning">Advanture Time</button>
+
+
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary w-100 mt-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        A Journey Begins
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary w-100 mt-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Let The Adventure Begins.
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary w-100 mt-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Let's Hit The Road.
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-secondary text-light mt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="text-uppercase">About Us</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-md-6">
+              <h5 class="text-uppercase">Contact</h5>
+              <ul class="list-unstyled">
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel:+1234567890">+123 456 7890</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+</body>
+
+</html>
